@@ -1,0 +1,25 @@
+# Preuzeti open.mp server i alat za kompajliranje
+.runtime/
+.tools/
+
+# Kompajlirani Pawn fajlovi i privremeni izlazi
+*.amx
+*.asm
+*.lst
+*.log
+log.txt
+crashinfo.txt
+bans.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Lokalna podešavanja i tajne
+config.local.json
+.env
+.env.*
+!.env.example
+
+# Sistemski fajlovi
+.DS_Store
+Thumbs.db

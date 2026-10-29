@@ -1,0 +1,30 @@
+{
+  "name": "Balkan Country RP",
+  "language": "Bosanski",
+  "announce": false,
+  "max_players": 50,
+  "network": {
+    "port": 7777
+  },
+  "game": {
+    "mode": "Igranje uloga | Bosna i Hercegovina",
+    "map": "San Andreas"
+  },
+  "pawn": {
+    "legacy_plugins": [],
+    "main_scripts": [
+      "bcrp 1"
+    ],
+    "side_scripts": []
+  },
+  "rcon": {
+    "allow_teleport": false,
+    "enable": false
+  },
+  "logging": {
+    "enable": true,
+    "log_chat": false,
+    "log_connection_messages": true,
+    "log_deaths": true
+  }
+}
